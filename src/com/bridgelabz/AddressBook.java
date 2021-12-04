@@ -112,7 +112,15 @@ public class AddressBook {
 	        for (int index = 0; index < numberOfConatcts; index++) {
 	            System.out.println(contactBook[index]);
 	        }
-	    
 	    }
+	    public void addMultipleContacts() {
+	        System.out.println("Enter number of contacts to Add");
+	        int number = sc.nextInt();
+	        for (int i = 0; i < number; i++) {
+	            addContacts();
+	        }
+	    }
+    }
+	    
 
-}
+
